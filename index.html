@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Pvt Ltd - Digital Solutions & Branding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-text">ABC</span>
+                    <span class="logo-subtitle">Pvt Ltd</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#clients" class="nav-link">Clients</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-blob blob-1"></div>
+            <div class="gradient-blob blob-2"></div>
+            <div class="gradient-blob blob-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Transforming Ideas</span>
+                    <span class="title-line">Into Digital</span>
+                    <span class="title-line gradient-text">Excellence</span>
+                </h1>
+                <p class="hero-subtitle">We create stunning web experiences, powerful mobile apps, and memorable brands that drive growth and engagement.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>30+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Satisfaction Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Do</span>
+                <h2 class="section-title">Our <span class="gradient-text">Services</span></h2>
+                <p class="section-subtitle">Comprehensive digital solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 16V8C21 6.9 20.1 6 19 6H5C3.9 6 3 6.9 3 8V16C3 17.1 3.9 18 5 18H19C20.1 18 21 17.1 21 16Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 10H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">Custom websites and web applications built with cutting-edge technologies. Responsive, fast, and optimized for conversions.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>E-commerce Solutions</li>
+                        <li>CMS Integration</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="featured-badge">Popular</div>
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="5" y="2" width="14" height="20" rx="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 18H12.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">App Development</h3>
+                    <p class="service-description">Native and cross-platform mobile applications that deliver exceptional user experiences on iOS and Android.</p>
+                    <ul class="service-features">
+                        <li>iOS & Android Apps</li>
+                        <li>Cross-Platform Solutions</li>
+                        <li>UI/UX Design</li>
+                        <li>App Maintenance & Support</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Branding</h3>
+                    <p class="service-description">Complete brand identity solutions that make your business stand out and resonate with your target audience.</p>
+                    <ul class="service-features">
+                        <li>Logo Design</li>
+                        <li>Brand Strategy</li>
+                        <li>Visual Identity</li>
+                        <li>Marketing Materials</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Success Stories</span>
+                <h2 class="section-title">Trusted by <span class="gradient-text">Leading Brands</span></h2>
+                <p class="section-subtitle">Proud to work with amazing clients who trust us with their digital presence</p>
+            </div>
+            <div class="clients-grid">
+                <!-- Client Card 1 - Replace with your actual client data -->
+                <a href="https://example-client1.com" target="_blank" class="client-card" rel="noopener noreferrer">
+                    <div class="client-logo-container">
+                        <div class="client-logo-placeholder">
+                            <span class="client-initial">C1</span>
+                        </div>
+                    </div>
+                    <h3 class="client-name">Client Company Name</h3>
+                    <p class="client-project">E-commerce Platform</p>
+                    <div class="client-tags">
+                        <span class="tag">Web Development</span>
+                        <span class="tag">UI/UX</span>
+                    </div>
+                </a>
+
+                <!-- Client Card 2 -->
+                <a href="https://example-client2.com" target="_blank" class="client-card" rel="noopener noreferrer">
+                    <div class="client-logo-container">
+                        <div class="client-logo-placeholder">
+                            <span class="client-initial">C2</span>
+                        </div>
+                    </div>
+                    <h3 class="client-name">Tech Startup Inc</h3>
+                    <p class="client-project">Mobile Application</p>
+                    <div class="client-tags">
+                        <span class="tag">App Development</span>
+                        <span class="tag">iOS</span>
+                    </div>
+                </a>
+
+                <!-- Client Card 3 -->
+                <a href="https://example-client3.com" target="_blank" class="client-card" rel="noopener noreferrer">
+                    <div class="client-logo-container">
+                        <div class="client-logo-placeholder">
+                            <span class="client-initial">C3</span>
+                        </div>
+                    </div>
+                    <h3 class="client-name">Brand Solutions Ltd</h3>
+                    <p class="client-project">Complete Rebranding</p>
+                    <div class="client-tags">
+                        <span class="tag">Branding</span>
+                        <span class="tag">Design</span>
+                    </div>
+                </a>
+
+                <!-- Client Card 4 -->
+                <a href="https://example-client4.com" target="_blank" class="client-card" rel="noopener noreferrer">
+                    <div class="client-logo-container">
+                        <div class="client-logo-placeholder">
+                            <span class="client-initial">C4</span>
+                        </div>
+                    </div>
+                    <h3 class="client-name">Digital Agency Pro</h3>
+                    <p class="client-project">Corporate Website</p>
+                    <div class="client-tags">
+                        <span class="tag">Web Development</span>
+                        <span class="tag">CMS</span>
+                    </div>
+                </a>
+
+                <!-- Client Card 5 -->
+                <a href="https://example-client5.com" target="_blank" class="client-card" rel="noopener noreferrer">
+                    <div class="client-logo-container">
+                        <div class="client-logo-placeholder">
+                            <span class="client-initial">C5</span>
+                        </div>
+                    </div>
+                    <h3 class="client-name">Innovation Hub</h3>
+                    <p class="client-project">SaaS Platform</p>
+                    <div class="client-tags">
+                        <span class="tag">Web App</span>
+                        <span class="tag">API</span>
+                    </div>
+                </a>
+
+                <!-- Client Card 6 -->
+                <a href="https://example-client6.com" target="_blank" class="client-card" rel="noopener noreferrer">
+                    <div class="client-logo-container">
+                        <div class="client-logo-placeholder">
+                            <span class="client-initial">C6</span>
+                        </div>
+                    </div>
+                    <h3 class="client-name">Retail Solutions</h3>
+                    <p class="client-project">Multi-vendor Marketplace</p>
+                    <div class="client-tags">
+                        <span class="tag">E-commerce</span>
+                        <span class="tag">Mobile</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-label">About Us</span>
+                    <h2 class="section-title">Why Choose <span class="gradient-text">ABC Pvt Ltd</span>?</h2>
+                    <p class="about-text">We are a team of passionate designers, developers, and strategists dedicated to helping businesses thrive in the digital world. Our mission is to deliver innovative solutions that drive real results.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Expert Team</h4>
+                                <p>Skilled professionals with years of experience</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Quality Assured</h4>
+                                <p>Rigorous testing and quality control processes</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>On-Time Delivery</h4>
+                                <p>We respect deadlines and deliver on schedule</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>24/7 Support</h4>
+                                <p>Always here to help when you need us</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <div class="floating-card card-1">
+                            <span class="card-emoji">🎨</span>
+                            <span class="card-text">Creative Design</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <span class="card-emoji">💻</span>
+                            <span class="card-text">Clean Code</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <span class="card-emoji">🚀</span>
+                            <span class="card-text">Fast Delivery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Let's Build Something <span class="gradient-text">Amazing</span></h2>
+                <p class="section-subtitle">Ready to take your business to the next level? We'd love to hear from you.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Business Street, City, Country</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 16.92V19.92C22 20.4728 21.5523 20.92 21 20.92H3C2.44772 20.92 2 20.4728 2 19.92V16.92" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 7.92V4.92C22 4.36771 21.5523 3.92 21 3.92H3C2.44772 3.92 2 4.36771 2 4.92V7.92" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 12.92H22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@abcpvtltd.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 16.92V19.92C22.0011 20.4224 21.7602 20.8986 21.3489 21.2068C20.9375 21.5149 20.4003 21.6209 19.8939 21.4937C16.0357 20.6129 12.4736 18.7431 9.58388 16.08C6.93683 13.6461 4.85927 10.6367 3.50388 7.29199C3.37511 6.78554 3.48067 6.24802 3.78877 5.83644C4.09688 5.42487 4.57286 5.18373 5.07388 5.18399H8.07388C8.96254 5.17528 9.70726 5.79533 9.82388 6.66699C9.93094 7.53659 10.135 8.38904 10.4339 9.20699C10.6697 9.83065 10.5207 10.5312 10.0539 11.007L8.78388 12.277C11.0653 15.0573 13.9236 17.9155 16.7039 20.197L17.9739 18.927C18.4494 18.4602 19.15 18.3112 19.7739 18.547C20.5918 18.8459 21.4443 19.0499 22.3139 19.157C23.1972 19.2748 23.8245 20.0358 23.8139 20.937L22 16.92Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option value="">Select Service</option>
+                            <option value="web">Web Development</option>
+                            <option value="app">App Development</option>
+                            <option value="branding">Branding</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell us about your project" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span class="logo-text">ABC</span>
+                        <span class="logo-subtitle">Pvt Ltd</span>
+                    </div>
+                    <p class="footer-text">Transforming ideas into digital excellence through innovative web development, app development, and branding solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">App Development</a></li>
+                        <li><a href="#services">Branding</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ABC Pvt Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
